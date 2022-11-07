@@ -13,4 +13,10 @@
         android:layout_alignParentBottom="true"
         app:menu="@menu/menu_bottom_navigation"/>
 
+    <FrameLayout
+        android:id="@+id/fl_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bnv_kuliner_kita"/>
+
 </RelativeLayout>
